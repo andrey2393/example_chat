@@ -1,0 +1,214 @@
+ body {
+            background-image: url(3px-tile-1920x1080.png);
+        }
+        
+        header {
+            height: 70px;
+            background-color: #808080;
+        }
+        
+        .main {
+            margin-top: 160px;
+            background-color: white;
+            box-shadow: 0 0 10px #FFFAFA;
+        }
+        
+        .login {
+            font-size: 29px;
+            font-weight: 700;
+            margin-top: 15px
+        }
+        
+        .join {
+            font-size: 13px;
+            color: gray;
+            margin-top: 30px;
+        }
+        
+        .free {
+            color: black;
+        }
+        
+        .form-group {
+            margin-top: 10px
+        }
+        
+        .btn {
+            position: relative;
+            display: inline-block;
+            font-size: 100%;
+            font-weight: 700;
+            color: #fff;
+            text-decoration: none;
+            background: linear-gradient(to left top, transparent 49.9%, #3D948D 51%, #3D948D 78%, #008080 80%), linear-gradient(to left top, #3D948D 29%, #008080 20%);
+            background-size: 2em 2em;
+        }
+        
+        #name {
+            display: inline-block;
+            position: relative;
+            padding-bottom: 3px;
+            font-size: 100%;
+            font-weight: 700;
+            text-decoration: none;
+            background: linear-gradient(to left top, transparent 49.9%, #3D948D 51%, #3D948D 78%, #008080 80%), linear-gradient(to left top, #3D948D 29%, #008080 20%);
+            background-repeat: repeat;
+            background-size: 2em 2em;
+            color: aliceblue;
+            font-size: 16px;
+            font-weight: 100;
+            box-shadow: 0 0 10px black;
+            left: -10px;
+        }
+        
+        #name:after {
+            display: block;
+            content: no-close-quote;
+            position: absolute;
+            right: -10px;
+            top: 21%;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-left: 10px solid #3D948D;
+            border-bottom: 10px solid transparent;
+            z-index: 9;
+        }
+        
+        #name:before {
+            display: block;
+            content: no-close-quote;
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 10px solid #3D948D;
+            border-left: 10px solid transparent;
+            left: 0px;
+            top: 32px;
+        }
+        
+        #pass {
+            display: inline-block;
+            height: 100%;
+            position: relative;
+            padding-bottom: 3px;
+            font-size: 100%;
+            font-weight: 700;
+            text-decoration: none;
+            background: linear-gradient(to left top, transparent 49.9%, #3D948D 51%, #3D948D 78%, #008080 80%), linear-gradient(to left top, #3D948D 29%, #008080 20%);
+            background-repeat: repeat;
+            background-size: 2em 2em;
+            color: aliceblue;
+            font-size: 16px;
+            font-weight: 100;
+            box-shadow: 0 0 10px black;
+            left: -10px;
+        }
+        
+        #pass:after {
+            display: block;
+            content: no-close-quote;
+            position: absolute;
+            right: -10px;
+            top: 21%;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-left: 10px solid #3D948D;
+            border-bottom: 10px solid transparent;
+            z-index: 9;
+        }
+        
+        #pass:before {
+            display: block;
+            content: no-close-quote;
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 10px solid #3D948D;
+            border-left: 10px solid transparent;
+            left: 0px;
+            top: 32px;
+        }
+        
+        .form-control {
+            width: 121%;
+            position: relative;
+            left: -11%;
+            background-color: azure;
+            border-radius: 0px;
+            border-left: none !important;
+            box-shadow: none !important;
+        }
+        
+        .form-control:active,
+        .form-control:enable,
+        .form-control:focus {
+            border-left: none !important;
+            box-shadow: none !important;
+        }
+        
+        #nameForm:after {
+            display: block;
+            content: no-close-quote;
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 8px solid azure;
+            border-right: 8px solid transparent;
+            top: 34px;
+            right: -8px
+        }
+        
+        #passForm:after {
+            display: block;
+            content: no-close-quote;
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 8px solid azure;
+            border-right: 8px solid transparent;
+            top: 34px;
+            right: -8px
+        }
+        
+        #check {
+            font-size: 11px;
+            color: gray;
+            margin-top: 10px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: grey;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        
+        a:hover {
+            color: darkgray
+        }
+        
+        .head {
+            margin-top: 18px;
+            letter-spacing: 1px;
+            box-shadow: 0 0 10px black;
+        }
+        
+        .main_2 {
+            
+            height: 100%;
+            margin-top: 50px;
+            background-color: white;
+            display: none;
+            border-radius: 10px;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .show {
+            display: block;
+        }
+        

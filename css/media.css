@@ -1,0 +1,171 @@
+ @media screen and (min-width: 1200px) {
+            .head {
+                width: 200px;
+            }
+        }
+        
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+            #name,
+            #pass {
+                font-size: 14px;
+            }
+            #name:before,
+            #pass:before {
+                top: 30px;
+            }
+            #inputName,
+            #inputPass {
+                width: 227px;
+                left: -25px
+            }
+            .join {
+                font-size: 11px
+            }
+            .login {
+                font-size: 20px;
+                margin-left: 10px;
+            }
+            .head {
+                width: 130px;
+            }
+        }
+        
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+            .main {
+                margin-top: 100px
+            }
+            #name,
+            #pass {
+                width: 100%;
+                left: 0px;
+            }
+            #name:after,
+            #pass:after,
+            #name:before,
+            #pass:before {
+                display: none;
+            }
+            .form-control {
+                width: 240px;
+                left: -15px;
+                margin-top: 10px;
+            }
+            #nameForm:after,
+            #passForm:after {
+                display: none;
+            }
+            .login {
+                font-size: 18px;
+                margin-top: 30px;
+            }
+            .join {
+                font-size: 10px
+            }
+            #check {
+                font-size: 10px;
+            }
+            .control-label {
+                margin-left: 56px
+            }
+            .head {
+                width: 120px;
+            }
+        }
+        
+        @media screen and (min-width:440px) and (max-width: 767px) {
+            .main {
+                margin-top: 100px;
+                width: 240px;
+            }
+            #name,
+            #pass {
+                width: 100%;
+                left: 0px;
+            }
+            #name:after,
+            #pass:after,
+            #name:before,
+            #pass:before {
+                display: none;
+            }
+            .form-control {
+                width: 240px;
+                left: -15px;
+                margin-top: 10px;
+            }
+            #nameForm:after,
+            #passForm:after {
+                display: none;
+            }
+            .login {
+                font-size: 18px;
+                margin-top: 30px;
+            }
+            .join {
+                font-size: 10px
+            }
+            #check {
+                font-size: 10px;
+            }
+            .control-label {
+                margin-left: 25%;
+            }
+            #name,
+            #pass {
+                height: 20px;
+            }
+            .head {
+                width: 110px;
+                font-size: 13px
+            }
+        }
+        
+        @media screen and (min-width:250px) and (max-width: 439px) {
+            .main {
+                width: 200px;
+                margin-top: 90px;
+                margin-left: 19%;
+            }
+            #name,
+            #pass {
+                width: 100%;
+                left: 0px;
+            }
+            #name:after,
+            #pass:after,
+            #name:before,
+            #pass:before {
+                display: none;
+            }
+            .form-control {
+                width: 117%;
+                left: -15px;
+                margin-top: 10px;
+            }
+            #nameForm:after,
+            #passForm:after {
+                display: none;
+            }
+            .login {
+                font-size: 18px;
+                margin-top: 30px;
+            }
+            .join {
+                font-size: 10px
+            }
+            #check {
+                font-size: 10px;
+            }
+            .control-label {
+                margin-left: 25%;
+            }
+            #name,
+            #pass {
+                height: 20px;
+            }
+            .head {
+                width: 95px;
+                font-size: 11.5px;
+                margin-top: 20px;
+            }
+        }
